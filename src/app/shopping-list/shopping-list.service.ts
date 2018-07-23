@@ -1,5 +1,5 @@
 import {Ingredient} from '../shared/ingredient.model';
-import { Subject } from '../../../node_modules/rxjs';
+import { Subject } from 'rxjs';
 
 export class ShoppingListService{
     

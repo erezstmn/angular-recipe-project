@@ -2,7 +2,7 @@ import {Recipe} from './recipe.model';
 import { EventEmitter } from '@angular/core';
 import { Ingredient } from '../shared/ingredient.model';
 import { RecipeItemComponent } from './recipe-list/recipe-item/recipe-item.component';
-import { Subject } from '../../../node_modules/rxjs';
+import { Subject } from 'rxjs';
 
 export class RecipeService{
     recipesChanged= new Subject<Recipe[]>();

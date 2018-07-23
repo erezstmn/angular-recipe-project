@@ -1,4 +1,4 @@
-import { isJsObject } from "../../../node_modules/@angular/core/src/change_detection/change_detection_util";
+import { isJsObject } from "@angular/core/src/change_detection/change_detection_util";
 import { Ingredient } from "../shared/ingredient.model";
 
 export class Recipe{
